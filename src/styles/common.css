@@ -1,0 +1,31 @@
+/* Common stylsheet for Todo App */
+
+* {
+	border: 1px solid lightgray;
+}
+
+.main-login {
+	color: lightsteelblue;
+}
+
+#mark-page {
+	background-color: lightsteelblue;
+}
+
+a:hover {
+	color: red;
+}
+
+p {
+	font-family: "Jersey 15", sans-serif;
+}
+
+#section > p {
+	margin: 50px auto;
+	padding: 20px 10px;
+}
+
+img {
+	display: block;
+	margin: 50px auto;
+}
