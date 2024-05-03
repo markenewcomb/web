@@ -24,5 +24,17 @@ Features of this application include:
 - Attempt in Java/Spring
 - Turn into desktop React application
 - Implement for ios, android
-- Implement in Javafx
 - Implement in Win32
+
+### Study Sources
+- MDN
+- Swift Dev
+- Android google dev
+- MS Learn .Net
+- Java Spring
+
+### Bookmarks
+- MDN : css -> building blocks -> pseudo selectors
+
+#### Start Python Web Server
+python3 -m http.server

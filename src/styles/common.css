@@ -1,7 +1,7 @@
 /* Common stylsheet for Todo App */
 
 * {
-	border: 1px solid lightgray;
+	border: 1px solid black;
 }
 
 .main-login {
@@ -28,4 +28,16 @@ p {
 img {
 	display: block;
 	margin: 50px auto;
+}
+
+@media only screen and (min-width: 700px) {
+	* {
+		border: 2px solid seagreen;
+	}
+}
+
+@media only screen and (min-width: 900px) {
+	* {
+		border: 4px solid indianred;
+	}
 }

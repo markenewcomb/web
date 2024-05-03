@@ -19,49 +19,92 @@
 	<div id="main-ctr">
 		<header>
 			<h1>Todo App</h1>
-			<ul>
-				<li>Home</li>
-				<li><a href="pages/about.html" title="about us">About</a></li>
-				<li>Services</li>
-				<li>Reviews</li>
-				<li><a href="#mark-page" title="footer">Contact</a></li>
-			</ul>				
+			<nav>
+				<ul>
+					<li>Home</li>
+					<li><a href="pages/about.html" title="about us">About</a></li>
+					<li>Services</li>
+					<li>Reviews</li>
+					<li><a href="#mark-page" title="footer">Contact</a></li>
+				</ul>
+			</nav>				
 		</header>
 		<!-- This is the main div for the login page -->
-		<div id="main-div" class="main-login">
-			<h2>Mark Newcomb's Todo App</h2>
-			<p>
-				Image here: <br />
-				<a href="https://www.mark-newcomb.org" title="Mark's Web Page">
-					<img src="assets/design/login-mockup.png" alt="Login Design Mockup" />
-				</a>
-			</p>
-		</div>
-		<div id="section">
-			<h3>Sub-Section</h3>
-			<p>
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-			</p>
-			<h3>Sub-Section2</h3>
-			<p>
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-				<button>PRESS ME</button>
-			</p>
-			<h3></h3>
-		</div>
-		<div id="mark-page">
-			<p><a href="https://www.mark-newcomb.org" title="Mark's Web Page">Mark Newcomb's Personal Webpage</a></p>
-		</div>
+		<main>
+			<div id="main-div" class="main-login">
+				<h2>Mark Newcomb's Todo App</h2>
+				<p>
+					Image here: <br />
+					<figure>
+						<a href="https://www.mark-newcomb.org" title="Mark's Web Page">
+							<img src="assets/design/login-mockup.png" alt="Login Design Mockup" />
+						</a>
+						<figcaption>
+							Design Mockup of Login Page
+						</figcaption>
+					</figure>
+				</p>
+			</div>
+			<div id="section">
+				<h3>Sub-Section</h3>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+				</p>
+				<hr />
+				<h3>Sub-Section2</h3>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+					<button>PRESS ME</button>
+				</p>
+				<hr />
+				<h3></h3>
+				<h4><a href="mailto:" title="send an email">Send an email</a></h4>
+			</div>
+			<div id="mark-page">
+				<p><a href="https://www.mark-newcomb.org" title="Mark's Web Page">Mark Newcomb's Personal Webpage</a></p>
+			</div>
+			<article>
+				<video src="https://youtu.be/cVG0Dtd51VE?si=0b80hMhKTUfgZEK0" controls>
+					<p>
+						Video not supported
+					</p>
+				</video>
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/cVG0Dtd51VE?si=0b80hMhKTUfgZEK0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+			</article>
+			<section>
+				<table>
+					<thead>
+						Table Header
+					</thead>
+					<tbody>
+						<tr>
+							<td></td>
+							<th>Name</th>
+							<th>Age</th>
+							<th>Sex</th>
+							<th>ID</th>
+						</tr>
+						<tr>
+							<td>First</td>
+						</tr>
+						<tr>
+							<td>Second</td>
+						</tr>
+					</tbody>
+				</table>
+			</section>
+			<aside></aside>
+		</main>
 	</div>
 	<script src="scripts/main-script.js"></script>
 </body>
